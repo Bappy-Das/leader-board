@@ -80,6 +80,9 @@ hr{
 .blog-info p{
     font-size: 16px;
 }
+.blog-info a{
+    text-decoration: none;
+}
 
 
 /* courses */
@@ -87,7 +90,18 @@ hr{
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.course{
+    margin-left: 24px;
+}
 .courses img{
     width: 224px;
     height: 104px;
+}
+.course-info p{
+    color: #EF7C64;
+    font-size: 14.6913px;
+}
+.ratting-duration{
+    display: flex;
+    justify-content: space-between;
 }
